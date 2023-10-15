@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramos me mueve</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"> </script>
+    <link href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+	  <div class="container-fluid">
+	    <a class="navbar-brand col-12" href="#">
+	    	<center>
+	    		Control de versiones
+	    	</center>
+	    </a>
+	  </div>
+	</nav>
+     
+	<div class="position-relative" id="divPresentado">
+	  <div class="position-absolute top-50 start-50 translate-middle">
+	  	<center>
+	  		<img src="https://die.mep.go.cr/sites/all/files/enconstruccion_4.gif" height="250px">
+	  		<h3>Esta aplicación web esta en desarrollo</h3>
+	  	</center>
+	  </div>
+	</div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>      
+    <script type="text/javascript">
+    	var alturaPantalla = window.innerHeight;
+    	var anchoPantalla = window.innerWidth;
+		$("#divPresentado").height(alturaPantalla - 200);
+		$("#divPresentado").width(anchoPantalla);
+    </script>
+</body>
+</html>
